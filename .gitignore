@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+dist/
+export/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# Demo preview build artifacts (showcase PNGs in docs/ are committed)
+examples/demo-preview/node_modules/
+examples/demo-preview/dist/
+examples/demo-preview/export/
+
+# Lock files optional — keep package-lock for demo reproducibility
