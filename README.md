@@ -10,7 +10,7 @@ An [Agent Skill](https://agentskills.io) for Cursor, Claude Code, Codex, GitHub 
 
 ## Why this skill exists
 
-Chrome Web Store listings need polished screenshots and promo tiles. Doing it in Figma for every extension is slow — and you often want **multiple visual directions** before picking one.
+Chrome Web Store listings need polished screenshots and promo tiles. Doing it in a design tool for every extension is slow — and you often want **multiple visual directions** before picking one.
 
 This skill teaches your agent to:
 
@@ -28,11 +28,11 @@ This skill teaches your agent to:
 
 Fictional extension **DraftFlow** — same screenshots, four visual styles:
 
-| Style A — Apple Pro | Style B — Cyber SaaS |
+| Style A — Clean Minimal | Style B — Neon Tech |
 |:---:|:---:|
 | ![Style A hero](docs/images/showcase/showcase-style-a-hero.png) | ![Style B hero](docs/images/showcase/showcase-style-b-hero.png) |
 
-| Style C — Editorial | Style D — Bold Contrast |
+| Style C — Warm Editorial | Style D — Bold Contrast |
 |:---:|:---:|
 | ![Style C hero](docs/images/showcase/showcase-style-c-hero.png) | ![Style D hero](docs/images/showcase/showcase-style-d-hero.png) |
 

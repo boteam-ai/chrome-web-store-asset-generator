@@ -7,9 +7,9 @@ import { productMeta } from './productMeta';
 import { themes } from './themes';
 
 const TABS = [
-  { id: 'a', label: 'Style A: Apple Pro' },
-  { id: 'b', label: 'Style B: Cyber SaaS' },
-  { id: 'c', label: 'Style C: Editorial Studio' },
+  { id: 'a', label: 'Style A: Clean Minimal' },
+  { id: 'b', label: 'Style B: Neon Tech' },
+  { id: 'c', label: 'Style C: Warm Editorial' },
   { id: 'd', label: 'Style D: Bold Contrast' },
   { id: 'promo', label: 'Promo Tiles (440×280)' },
 ];

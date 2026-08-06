@@ -1,6 +1,6 @@
 export const themeA = {
   id: 'a',
-  label: 'Apple Pro',
+  label: 'Clean Minimal',
   canvas: 'bg-[#0A0D14]',
   text: 'text-white',
   subtext: 'text-white/60',
@@ -21,7 +21,7 @@ export const themeA = {
 
 export const themeB = {
   id: 'b',
-  label: 'Cyber SaaS',
+  label: 'Neon Tech',
   canvas: 'bg-[#030712] bg-grid-cyber bg-grid',
   text: 'text-white',
   subtext: 'text-slate-400',
@@ -43,7 +43,7 @@ export const themeB = {
 
 export const themeC = {
   id: 'c',
-  label: 'Editorial Studio',
+  label: 'Warm Editorial',
   canvas: 'bg-[#FAF8F5]',
   text: 'text-stone-900',
   subtext: 'text-stone-500',

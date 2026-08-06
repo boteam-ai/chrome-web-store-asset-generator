@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Segoe UI', 'sans-serif'],
-        editorial: ['Newsreader', 'Georgia', 'serif'],
+        sans: ['system-ui', 'Segoe UI', 'sans-serif'],
+        editorial: ['Georgia', 'Times New Roman', 'serif'],
       },
       backgroundImage: {
         'grid-cyber':
