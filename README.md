@@ -46,7 +46,44 @@ This demo uses **skill-focused copy** and **UI mockups of the workflow itself** 
 |:---:|:---:|:---:|
 | ![Promo 1](docs/images/showcase/showcase-promo-logo-focus.png) | ![Promo 2](docs/images/showcase/showcase-promo-ui-banner.png) | ![Promo 3](docs/images/showcase/showcase-promo-trust-badges.png) |
 
-Runnable demo: [`examples/demo-preview/`](examples/demo-preview/) — `npm install && npm run dev`
+### Local preview (runnable demo)
+
+Browse the **skill workflow demo** in your browser — same preview app the agent scaffolds for real projects.
+
+**Requirements:** Node.js 18+, npm 9+
+
+```bash
+# 1. Clone this repo
+git clone https://github.com/boteam-ai/chrome-web-store-asset-generator.git
+cd chrome-web-store-asset-generator/examples/demo-preview
+
+# 2. Install dependencies
+npm install
+
+# 3. Start dev server → open http://localhost:5173
+npm run dev
+```
+
+**Optional — regenerate demo raw assets** (workflow UI mockups under `public/assets/raw/`):
+
+```bash
+python3 scripts/generate-demo-assets.py
+```
+
+**Optional — batch-export all PNGs** (writes to `export/screenshots/` and `export/promo-tiles/`):
+
+```bash
+npm run export:batch
+```
+
+| Command | What it does |
+|---------|----------------|
+| `npm run dev` | Tabbed preview — switch styles, export single cards |
+| `npm run export:batch` | Export all 35 PNGs (32 screenshots + 3 promo tiles) |
+| `npm run build && npm run preview` | Production build smoke test before sharing |
+
+Edit demo copy in [`examples/demo-preview/src/productMeta.js`](examples/demo-preview/src/productMeta.js).  
+Full install paths for agents: [INSTALL.md](INSTALL.md).
 
 ---
 
