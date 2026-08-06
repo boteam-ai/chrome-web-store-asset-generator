@@ -107,6 +107,6 @@ rm -rf ~/.codex/skills/chrome-web-store-asset-generator
 
 - [ ] `skills/chrome-web-store-asset-generator/SKILL.md` frontmatter valid
 - [ ] No real product names or local paths in committed skill files
-- [ ] Showcase images in `docs/images/showcase/` use fictional **DraftFlow** branding
+- [ ] Showcase images in `docs/images/showcase/` depict the **skill workflow** (not a sample extension product)
 - [ ] README install commands use correct `YOUR_USERNAME/repo` slug
 - [ ] Tag release for `gh skill install …@v1.0.0` pinning

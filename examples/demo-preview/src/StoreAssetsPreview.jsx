@@ -37,7 +37,7 @@ const StoreAssetsPreview = () => {
         <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-1">CWS asset preview</p>
         <h1 className="text-2xl font-semibold text-white">{productMeta.name}</h1>
         <p className="text-white/50 text-sm mt-1">
-          32 screenshots (1280×800) + 3 promo tiles (440×280) — 4 style packages
+          Skill demo — 8 slides × 4 styles + 3 promo tiles · depicts this skill&apos;s workflow
         </p>
       </header>
       <TabBar tabs={TABS} activeTab={activeTab} onChange={setActiveTab} />

@@ -24,9 +24,9 @@ This skill teaches your agent to:
 
 ---
 
-## Showcase (sample output)
+## Showcase (demo output)
 
-Fictional extension **DraftFlow** — same screenshots, four visual styles:
+This demo uses **skill-focused copy** and **UI mockups of the workflow itself** (asset intake, copy gate, 4 styles, preview, export) — not a sample extension product.
 
 | Style A — Clean Minimal | Style B — Neon Tech |
 |:---:|:---:|
@@ -36,9 +36,9 @@ Fictional extension **DraftFlow** — same screenshots, four visual styles:
 |:---:|:---:|
 | ![Style C hero](docs/images/showcase/showcase-style-c-hero.png) | ![Style D hero](docs/images/showcase/showcase-style-d-hero.png) |
 
-**Dual-image slide** (post + reply checklist):
+**Dual-image slide** (promo tile layout options):
 
-![Checklist dual layout](docs/images/showcase/showcase-style-a-checklist-dual.png)
+![Promo layouts](docs/images/showcase/showcase-style-a-checklist-dual.png)
 
 **Promo tiles (440×280):**
 
@@ -148,7 +148,7 @@ chrome-web-store-asset-generator/
 │   ├── SKILL.md           # Agent workflow (7 phases)
 │   ├── reference.md       # Theme tokens, layouts, export spec
 │   └── examples.md        # Generic copy / assetMap examples
-├── examples/demo-preview/ # Runnable React preview (DraftFlow demo)
+├── examples/demo-preview/ # Runnable demo — skill workflow mockups + preview app
 ├── docs/images/showcase/  # README showcase PNGs
 ├── scripts/install.sh     # Manual symlink installer
 ├── INSTALL.md             # Full install matrix

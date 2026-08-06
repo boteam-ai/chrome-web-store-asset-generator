@@ -58,8 +58,8 @@ const PromoTile03 = ({ meta, theme = themeC }) => (
       <span className={`${theme.heading} text-lg`}>{meta.name}</span>
     </div>
     <div>
-      <h3 className={`${theme.heading} text-2xl leading-tight mb-1`}>Draft. Optimize. Send.</h3>
-      <p className={`${theme.subtext} text-xs`}>Engage + Create on X</p>
+      <h3 className={`${theme.heading} text-2xl leading-tight mb-1`}>{promoMeta.promoHeadline}</h3>
+      <p className={`${theme.subtext} text-xs`}>{promoMeta.promoSubline}</p>
     </div>
     <div className="flex flex-wrap gap-1.5">
       {meta.trust.badges.map((badge) => (
